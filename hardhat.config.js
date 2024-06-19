@@ -12,5 +12,11 @@ module.exports = {
       chainId: 4002,
       accounts: [PRIVATE_KEY],
     },
+    //mainnet
+    polygon_mainnet: {
+      url: "https://polygon-pokt.nodies.app	",
+      chainId: 137,
+      accounts: [PRIVATE_KEY],
+    },
   },
 };

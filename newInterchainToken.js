@@ -38,12 +38,12 @@ async function registerAndDeploy() {
   const salt = "0x" + crypto.randomBytes(32).toString("hex");
 
   // Create a new token
-  const name = "New Interchain Token";
-  const symbol = "NIT";
+  const name = "Axelar BB";
+  const symbol = "ABB";
   const decimals = 18;
 
   // Intial token supply
-  const initialSupply = ethers.utils.parseEther("1000");
+  const initialSupply = ethers.utils.parseEther("1000000000");
 
   // Get a signer to sign the transaction
   const signer = await getSigner();
@@ -127,14 +127,14 @@ async function deployToRemoteChain() {
 
   // Set Salt value from registerAndDeploy()
   const salt =
-    "0x2a27a0745d3903de451292d6de4e58252235ef4a57a2e4673ac5147055dfbaa3";
+    "0x1ed1167cfe3ef124a89d5ab4161051abb3210e467dd6cdbc77f2ab4d96d098c4";
 
   // Initiate transaction
   const txn = await interchainTokenFactoryContract.deployRemoteInterchainToken(
     "Fantom",
     salt,
     signer.address,
-    "Celo",
+    "celo",
     gasAmount,
     { value: gasAmount }
   );

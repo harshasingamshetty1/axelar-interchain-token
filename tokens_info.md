@@ -16,8 +16,10 @@ Transaction Hash: 0x3d098cc6de61a200c265d888e85021f0b7be9666e857f1955a3bdd54c57b
 2. FUNCTION_NAME=deployToRemoteChain npx hardhat run newInterchainToken.js --network fantom
 3. FUNCTION_NAME=transferTokens npx hardhat run newInterchainToken.js --network fantom
 
-   Deployed Token ID: 0x9680c01bd53c5ab59cd16ae573554dcc623e9cef8fe6e164cd3499cb92d82ddd,
-   Token Address: 0x9C7FDE1326bf7B95f1e8815baf38FdFe2998573F,
-   Transaction Hash: 0x835a4d4f615155d344e4e9bdcff8dd8ab3f8d934c6cd38818100582e2bc95526,
-   salt: 0x2a27a0745d3903de451292d6de4e58252235ef4a57a2e4673ac5147055dfbaa3,
-   Expected Token Manager Address: 0x22392E41F10bFa7fbe4e2acF9014027dc6817a8D,
+### Polygon mainnet BBird token
+
+Deployed Token ID: 0xa9f7a4f0394f449ad51a03575d93f9847110a750a1384c22a9d568e384d0487a,
+Token Address: 0x78a20BCb1293f4f291fdd05502100B478eBcc2fC,
+Transaction Hash: 0xcbac68888742dfdbe628d9a7a251457eaf35d727d923ccf5a3cae9ea119f5c3f,
+salt: 0x7c4194156ae1a64805843348b4f920065c0715116370f2a06569f9540a2a1eb7,
+Expected Token Manager Address: 0x90BF0Fd7D1002edb1a68D51E83Cc97729c69781D,
